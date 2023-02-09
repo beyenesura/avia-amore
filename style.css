@@ -71,3 +71,34 @@ main > * {
 /* media queries */
 
 /* YOUR CODE HERE */
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+    
+    h1 {
+        text-align: center;
+    }
+    
+    nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .airplane-list-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .airplane-card {
+        margin: 10px 0;
+        width: 90%;
+    }
+    
+    .airplane-card img {
+        width: 100%;
+    }
+}
